@@ -1,12 +1,10 @@
 package com.bridgelabz.employee;
-
 import java.util.ArrayList;
 
 public class EmployeeWage implements EmployeeWageService {
 	public static final int IS_PART_TIME = 1;
 	public static final int IS_FULL_TIME = 2;
 
-	private int numOfCompany = 0;
 	private ArrayList<CompanyEmployeeWage> companyEmpWageList;
 
 	public EmployeeWage() {
@@ -57,6 +55,7 @@ public class EmployeeWage implements EmployeeWageService {
 		EmployeeWage employeeWage = new EmployeeWage();
 		employeeWage.addCompanyEmpWage("DMart", 20, 2, 10);
 		employeeWage.addCompanyEmpWage("jio", 10, 4, 20);
+		employeeWage.addCompanyEmpWage("big", 30, 6, 10);
 		employeeWage.computeEmpWage();
 	}
 

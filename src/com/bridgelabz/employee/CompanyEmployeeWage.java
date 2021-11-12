@@ -30,6 +30,10 @@ public class CompanyEmployeeWage {
 		this.numOfWorkingDays = numOfWorkingDays;
 		this.maxHoursPerMonth = maxHoursPerMonth;
 	}
+	
+	public int getTotalEmpWage() {
+		return totalEmpWage;
+	}
 
 	public void setTotalEmpWage(int totalEmpWage) {
 		this.totalEmpWage = totalEmpWage;
