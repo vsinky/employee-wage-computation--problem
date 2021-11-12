@@ -4,6 +4,10 @@ public class CompanyEmployeeWage {
 	
 	private final String company;
 	private final int empRatePerHour;
+	
+	public String getCompany() {
+		return company;
+	}
 	public int getEmpRatePerHour() {
 		return empRatePerHour;
 	}
