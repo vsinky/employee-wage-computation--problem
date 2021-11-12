@@ -4,6 +4,9 @@ public class CompanyEmployeeWage {
 	
 	private final String company;
 	private final int empRatePerHour;
+	private final int numOfWorkingDays;
+	private final int maxHoursPerMonth;
+	private int totalEmpWage;
 	
 	public String getCompany() {
 		return company;
@@ -20,9 +23,7 @@ public class CompanyEmployeeWage {
 		return maxHoursPerMonth;
 	}
 
-	private final int numOfWorkingDays;
-	private final int maxHoursPerMonth;
-	private int totalEmpWage;
+	
 
 	public CompanyEmployeeWage(String company, int empRatePerHour, int numOfWorkingDays, int maxHoursPerMonth) {
 		this.company = company;
